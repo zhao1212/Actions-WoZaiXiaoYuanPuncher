@@ -87,7 +87,7 @@ class WoZaiXiaoYuanPuncher:
         self.header['Content-Type'] = "application/x-www-form-urlencoded"
         self.header['JWSESSION'] = self.getJwsession()
         sign_data = {
-            "answers": '["0","0","0","2","0","1","0"]',
+            "answers": '["0","0","0","2","0","1","1","0"]',
             "latitude": os.environ['WZXY_LATITUDE'],
             "longitude": os.environ['WZXY_LONGITUDE'],
             "country": os.environ['WZXY_COUNTRY'],
